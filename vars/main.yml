@@ -9,9 +9,6 @@ teamcity_server_group: teamcity
 teamcity_server_home: /home/teamcity
 
 teamcity_server_plugins:
-  - name: "crowd-plugin"
-    url: https://dl.bintray.com/greggigon/generic/teamcity-crowd-plugin-0.3.0.zip
-
   - name: "ansible-plugin"
     url: https://github.com/andreizhuk/tc-ansible-runner/releases/download/v1.0.1/ansible-runner-dist.zip
 
@@ -29,9 +26,6 @@ teamcity_server_plugins:
 
   - name: "docker-plugin"
     url: https://teamcity.jetbrains.com/repository/download/TeamCityVirtual_Build/.lastPinned/TeamCity.Virtual.zip?guest=1
-
-  - name: "chuck-plugin"
-    url: https://dl.bintray.com/dbf/teamcity-chuck-plugin/chucktcplugin-0.5.2.zip
 
   - name: "jira-plugin"
     url:  https://bitbucket.org/mamirov/jirareporter/downloads/jirareporter.zip
